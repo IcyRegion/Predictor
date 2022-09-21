@@ -4,7 +4,6 @@ import discord, time
 import random, threading
 import asyncio
 from discord.ext import commands
-import os
 
 bot = commands.Bot(command_prefix=".", intents=discord.Intents.all())
 
@@ -147,4 +146,4 @@ async def towers(ctx,round_id):
         em.set_footer(text="Tower Predictor.")
         await ctx.author.send(embed=em)
 
-bot.run(os.environ["DISCORD_TOKEN"])
+bot.run("MTAyMTA2MTE1NjIxNzA0MDk0OA.GE6zOx.CKdjGVdLuAqRAbzF62Wm1wbSBu324g90y-eetI")
