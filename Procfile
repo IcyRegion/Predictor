@@ -1,1 +1,1 @@
-worker: python Mortal.py
+worker: python3 Mortal.py
